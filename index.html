@@ -18,7 +18,7 @@
         <div class="my-Container m-auto">
             <nav class="navbar navbar-expand-lg text-dark navbar-light bg-light my-5 p-3">
                 <div class="container">
-                    <a class="navbar-brand myTextColor myText" href="index.html">Product Inventory System</a>
+                    <a class="navbar-brand myTextColor myText" href="index.html">Inventory Management System</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -58,10 +58,10 @@
                     <div class="col-md-5">
                         <div class="caption">
                             <h1 class="mb-5">Our New Collection</h1>
-                            <p class="mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta beatae quam
-                                possimus ad
-                                mollitia fugit debitis aspernatur doloribus iure corporis magni placeat, soluta fugiat
-                                consequuntur quae non exercitationem sint quibusdam!</p>
+                            <p class="mb-5">Give your feet the beauty treatment that only brand new shoes can give.
+                                We make your move.
+                                Perfection in every shoe.
+                                Enjoy the shiny things!</p>
 
                             <a href="addProduct.html" class="d-flex align-items-center justify-content-center"><i
                                     class="fas fa-plus-circle fa-2x mr-2 addProduct"></i><span> Add
@@ -80,6 +80,19 @@
         </div>
     </section>
     <!--End header section-->
+    
+<div class="product-description" data-name="Boots" data-price="5">
+    <h3 class="product-name">Vintage Boots</h3>
+        <p class="product-price">$500</p>
+        <form class="add-to-cart" action="cart.html" method="post">
+            <div>
+                <label for="qty-1">Quantity</label>
+                <input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
+            </div>
+            <p><input type="submit" value="Add to cart" class="btn" /></p>
+        </form>
+</div>
+
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
